@@ -1,9 +1,21 @@
 # Changelog
 
-## [1.27.1](https://github.com/jdx/fnox/compare/v1.27.0..v1.27.1) - 2026-06-17
+## [1.27.2](https://github.com/jdx/fnox/compare/v1.27.1..v1.27.2) - 2026-06-20
+
+### 📦️ Dependency Updates
+
+- update jdx/pr-closer action to v1.1.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#557](https://github.com/jdx/fnox/pull/557)
+- update rust crate openssl-sys to v0.9.117 by [@renovate[bot]](https://github.com/renovate[bot]) in [#559](https://github.com/jdx/fnox/pull/559)
+- update rust crate aws-sdk-secretsmanager to v1.108.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#562](https://github.com/jdx/fnox/pull/562)
+- update rust crate aws-sdk-kms to v1.111.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#561](https://github.com/jdx/fnox/pull/561)
+- update rust crate aws-sdk-ssm to v1.113.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#563](https://github.com/jdx/fnox/pull/563)
+- update rust crate aws-sdk-sts to v1.107.0 by [@renovate[bot]](https://github.com/renovate[bot]) in [#564](https://github.com/jdx/fnox/pull/564)
+
+## [1.27.1](https://github.com/jdx/fnox/compare/v1.27.0..v1.27.1) - 2026-06-18
 
 ### 🐛 Bug Fixes
 
+- **(daemon)** gate unix socket code by [@jdx](https://github.com/jdx) in [#555](https://github.com/jdx/fnox/pull/555)
 - **(export)** emit dotenv format for env exports by [@jdx](https://github.com/jdx) in [#554](https://github.com/jdx/fnox/pull/554)
 
 ### 📚 Documentation
